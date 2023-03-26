@@ -14,16 +14,27 @@ function Ratings(props){
 
     return (
         <div className='rating'>
-            {props.rate.map(rating => 
+            {props.rate  ? (
+                props.rate.map(rating => 
                     <div className="rating-source">
                         <span>{rating.Source}: {rating.Value} </span>
                     </div>
-            )}
-            <Rating
-                name="read-only"
-                precision={0.25}
-                value={changeToNumber(props.rate[0].Value)/2}
-            />
+            ) 
+            )
+            : <div>No Rating Available</div> 
+            }
+            
+            {props.rate.length>0 ? (
+                <Rating
+                    name="read-only"
+                    precision={0.25}
+                    value={changeToNumber(props.rate[0].Value)/2 || 0}
+                /> 
+            ) : 
+            (
+                <>No Rating Available</>
+            )
+            }
         </div>
     )
 }

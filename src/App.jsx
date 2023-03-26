@@ -5,6 +5,7 @@ import sadface from './assets/sad.png';
 import sim from './assets/sim.png';
 import data from './data';
 import second from './second';
+import Header from './components/Header';
 
 
 function App() {
@@ -22,10 +23,7 @@ function App() {
 
   return (
     <div className="App">
-        <header>
-          <img src={sim} className="simson" />
-          <h1>Abe Movies</h1>
-        </header>
+        <Header />
         <center>
           <div className='cont'>
             <input 

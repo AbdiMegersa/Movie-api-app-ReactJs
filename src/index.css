@@ -24,17 +24,42 @@ h1 {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  border: 1px solid red;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 header .simson {
-  height: 100px;
+  height: 60px;
   align-self: center;
+  border: 1px solid white;
+}
+
+header .brand {
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Poppins';
 }
 
 header h1 {
-  font-family:
+  margin: 0;
+  display: inline;
+  font-size: 20px;
+  border: 1px solid white;
 }
+
+header .developer {
+  padding: 18px 5px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: #abb7c4;
+}
+
 
 input {
   height: 45px;

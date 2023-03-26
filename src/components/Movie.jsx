@@ -4,22 +4,6 @@ import Ratings from './Ratings';
 
 function Movie(props) {
 
-    var rateValue = props.rating[0].Value;
-    console.log(props);
-    var resString = '';
-    let i=0;
-    while (i<rateValue.length && rateValue[i] !== '/'){
-        resString+=rateValue[i]
-        i+=1
-    }
-
-    rateValue = parseFloat(resString)
-    //console.log(rateValue)
-
-    // <p>{props.rating[0].Value+" "}<Rating name="read-only" precision={0.25} value={rateValue/2} /></p> 
-
-     // + props.type.slice(1);
-
     return(
         <div className="movie">
             <div className="movie-img">
