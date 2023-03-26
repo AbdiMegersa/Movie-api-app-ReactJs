@@ -11,7 +11,6 @@ function Header(){
             <div className='developer'>
                 <a href="#">Developer</a>
             </div>
-          
         </header>
     )
 }
