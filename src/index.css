@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  background-color: #020d18;
+  color: #abb7c4;
+  margin: 0;
+  font-family: 'Popins', sans-serif;
+}
+
+h1 {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.cont {
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header .simson {
+  height: 100px;
+  align-self: center;
+}
+
+header h1 {
+  font-family:
+}
+
+input {
+  height: 45px;
+  width: 87%;
+  margin: auto;
+  margin-right: 10px;
+  margin-left: 0;
+  font-size: 18px;
+  padding-left: 15px;
+  border-radius: 8px;
+  border: 0px;
+  border-style: none;
+  outline: none;
+  background-color: #243444;
+  color: #919191;
+  font-size: 1.34em;
+}
+
+input:hover {
+  box-shadow: 0 0 5pt 2pt #FF8C00;
+}
+
+button {
+  margin: auto;
+  background-color: #FF8C00;
+  border: none;
+  padding: 10px;
+  font-size: 1.2em;
+  color: #243444;
+  font-weight: bold;
+}
+
+button:hover {
+  box-shadow: 0 0 5pt 2pt #FF8C00;
+}
+
+.search-textfield {
+  color: white;
+}
+
+button {
+  height: 45px;
+  margin-left: 0;
+  border-radius: 9px;
+}
+
+.notfound {
+  color: red;
+}
+
+.notfoundheader {
+  margin-top: 0;
+}
+
+.sadface {
+  width: 100px;
+}
+
+.movie-container {
+  width: 60%;
+}
+
+.movie {
+  display: flex;
+  flex-direction: row;
+}
+
+.movie .movie-img {
+  height: 410px;
+  flex: 1;
+  border-radius: 33px;
+}
+
+.movie .description {
+  padding: 10px 25px;
+  flex: 1;
+}
+
+
+#display-result {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.description {
+  flex: 5;
+  text-align: left;
+  font-size: 12px;
+}
+
+.description h3 {
+  color: #FF8C00;
+  margin-bottom: 2px;
+  font-size: 1.6em;
+}
+
+.description p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+
+#movie-img {
+  flex: 3;
+  margin: auto;
+  height: 330px;
+}
+
+.movie-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.rating {
+  margin-top: 10px;
+  padding: 3px;
+  background-color: #0e1304;
+}
+
+
+.rating-source {
+  font-size: 12px;
+  color: rgb(109, 107, 68);
+}
