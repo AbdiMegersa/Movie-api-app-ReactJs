@@ -20,6 +20,9 @@ function App() {
       .then(movie => setFMovie(movie))
     }
 
+  const date = new Date()
+  const year = date.getFullYear()
+
 
   return (
     <div className="App">
@@ -59,6 +62,9 @@ function App() {
             </center>
            }
             
+          </div>
+          <div className="copy-right">
+          ©{year} A-Tech - all rights reserved 
           </div>
         </center>
 
